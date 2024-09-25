@@ -41,7 +41,7 @@ INSERT INTO `especies` (`idespecie`, `especie`) VALUES
 (1, 'Bengala'),
 (2, 'Amur'),
 (3, 'Panthera tigris'),
-(4, 'Colmillo de Sable'),
+(4, 'Colmillo de Sable');
 
 -- --------------------------------------------------------
 --

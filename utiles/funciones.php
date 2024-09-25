@@ -42,7 +42,7 @@ function convert_array($param) {
 }
 
 spl_autoload_register(function ($clase) {
-   // echo "Cargamos la clase  ".$clase."<br>" ;
+    //echo "Cargamos la clase  ".$clase."<br>" ;
     $directorys = array(
         $GLOBALS['ROOT'].'modelo/',
         $GLOBALS['ROOT'].'control/',
@@ -52,7 +52,7 @@ spl_autoload_register(function ($clase) {
     // print_r($directorys) ;
     foreach($directorys as $directory){
         if(file_exists($directory.$clase . '.php')){
-            // echo "se incluyo".$directory.$class_name . '.php';
+             //echo "se incluyo".$directory.$clase . '.php';
             require_once($directory.$clase . '.php');
             return;
         }
