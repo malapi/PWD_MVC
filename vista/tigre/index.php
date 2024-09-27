@@ -54,7 +54,6 @@ include_once("accion.php");
         echo '<a class="btn btn-primary" role="button" href="editar.php?accion=borrar&id='.$obj->getId().'">borrar</a></td></tr>';
 	}
 }
-
 ?>
         </tbody>
     </table>

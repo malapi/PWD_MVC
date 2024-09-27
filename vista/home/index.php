@@ -2,6 +2,8 @@
 $Titulo = " Inicio ";
 include_once("../estructura/cabeceraBT.php");
 ?>
+
+
 <link rel="stylesheet" href="../css/delahome.css" >
 
 <p class="heading0">Modelo MVC en Programacion Web Dinamica</p>
@@ -25,11 +27,13 @@ su creacion lo puede descargar de <a href="../../sql/pwd_tigredb.sql" target="_b
     </ul>
 
 <br><br>
+
+
 </div>
 
 
-</body>
-<?php
 
+
+<?php
 include_once("../estructura/pieBT.php");
 ?>

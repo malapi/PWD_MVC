@@ -16,7 +16,7 @@ if (isset($datos['accion'])){
         }else {
             $mensaje = "La accion ".$datos['accion']." no pudo concretarse.";
         }
-        //echo $mensaje;
+        echo $mensaje;
         echo("<script>location.href = './index.php?msg=$mensaje';</script>");
     }
     }
